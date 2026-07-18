@@ -1,4 +1,4 @@
-import Validator from '../classValidator.js';
+import Validator from '../index.js';
 
 describe('class Validator', () => {
   const validator = new Validator();
