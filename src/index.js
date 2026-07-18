@@ -1,4 +1,4 @@
-export default class Validator {
+class Validator {
 
   validateUsername (username) {        
 	  if (!/^[a-zA-Z0-9_-]+$/.test(username)) {
@@ -13,3 +13,5 @@ export default class Validator {
     return username;   
   }
 }
+
+module.exports = Validator;
